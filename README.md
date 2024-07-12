@@ -10,12 +10,12 @@ We have to analyze unemployment rate using python with appropriate technique of 
 
 # KEY INSIGHTS ABOUT PROJECT:
 
-01.Importing Required Libraries:
+# 01.Importing Required Libraries:
 
 Imports necessary libraries such as Pandas for data manipulation, Seaborn and Matplotlib for visualization, and Statsmodels for advanced statistical analysis.
 
 
-02.Load The Data:
+# 02.Load The Data:
 
 Loads the dataset from a CSV file stored in Google Drive (Unemployment in India.csv).
 
@@ -24,21 +24,21 @@ Displays the first few rows of the dataset and its column names.
 Strips any leading or trailing whitespace from column names for consistency.
 
 
-03.Data Preprocessing:
+# 03.Data Preprocessing:
 
 Checks for missing values in the dataset and fills them using forward fill (ffill).
 
 Converts the 'Date' column to datetime format for easier manipulation and analysis.
 
 
-04.Descriptive Statistics:
+# 04.Descriptive Statistics:
 
 Computes and displays descriptive statistics for numeric columns in the dataset, including count, mean, minimum, maximum, and quartiles.
 
 Provides insights into the distribution and range of values for each numeric variable.
 
 
-05.Data Visualization:
+# 05.Data Visualization:
 
 Visualizes trends over time using line plots for key variables:
 
@@ -49,7 +49,7 @@ Labour Participation Rate Over Time: Illustrates the estimated percentage of peo
 Number of Employed Over Time: Displays the estimated number of employed individuals over the specified time period.
 
 
-06.Correlation Analysis:
+# 06.Correlation Analysis:
 
 Constructs a correlation matrix to quantify the relationship between numeric variables.
 
@@ -58,7 +58,7 @@ Displays the correlation coefficients between variables using a heatmap, where w
 Helps identify which variables are positively, negatively, or weakly correlated with each other.
 
 
-07.Time Series Analysis (Advanced Analysis):
+# 07.Time Series Analysis (Advanced Analysis):
 
 Utilizes time series decomposition techniques to break down the components of each time series variable:
 
@@ -70,6 +70,6 @@ Number of Employed: Decomposes to identify trends, seasonal variations, and resi
 
 Provides deeper insights into how each variable behaves over time, beyond simple trends observed in basic visualization.
 
-
+............................................................................................................................................
 
 Each section of the code contributes to a comprehensive analysis of the dataset, from data loading and preprocessing to visualization and advanced time series decomposition, enabling a thorough exploration of unemployment trends in India.
